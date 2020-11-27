@@ -1,0 +1,96 @@
+#container{
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+    "hd hd hd hd"
+    "na na na na"
+    "ar ar2 ar3 as"
+    "ft ft ft ft";
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 15% 10% 50% 25%;
+    font-family: nerko_one;
+}
+
+header{
+    grid-area: hd;
+    background-color: aqua;
+}
+
+nav{
+    grid-area: na;
+    display: flex;
+    background-color: #2ee6e6;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#ar{
+    grid-area: ar;
+}
+
+#ar2{
+    grid-area: ar2;
+}
+
+#ar3{
+    grid-area: ar3;
+}
+
+aside{
+    grid-area: as;
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+}
+
+footer{
+    grid-area: ft;
+    background-color: #2ee6e6;
+}
+
+.link{
+    color: black;
+    text-decoration: none;
+}
+
+#ar img{
+    width: 325px;
+}
+
+#ar2 img{
+    width: 325px;
+}
+
+#ar3 img{
+    width: 325px;
+}
+
+#container2{
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+    "hd"
+    "na"
+    "ma"
+    "ft";
+    grid-template-rows: 15% 10% 60% 15%;
+}
+
+#container3{
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+    "hd"
+    "na"
+    "ma"
+    "ft";
+    grid-template-rows: 15% 10% 50% 25%;
+}
+
+main{
+    background-color: aqua;
+}
+
+.black{
+    color: black;
+}
