@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+}
+
+/* Container */
 #container{
     height: 100vh;
     display: grid;
@@ -8,61 +13,6 @@
     "ft ft ft ft";
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 15% 10% 50% 25%;
-    font-family: nerko_one;
-}
-
-header{
-    grid-area: hd;
-    background-color: aqua;
-}
-
-nav{
-    grid-area: na;
-    display: flex;
-    background-color: #2ee6e6;
-    justify-content: space-around;
-    align-items: center;
-}
-
-#ar{
-    grid-area: ar;
-}
-
-#ar2{
-    grid-area: ar2;
-}
-
-#ar3{
-    grid-area: ar3;
-}
-
-aside{
-    grid-area: as;
-    display: flex;
-    background-color: aqua;
-    justify-content: center;
-}
-
-footer{
-    grid-area: ft;
-    background-color: #2ee6e6;
-}
-
-.link{
-    color: black;
-    text-decoration: none;
-}
-
-#ar img{
-    width: 325px;
-}
-
-#ar2 img{
-    width: 325px;
-}
-
-#ar3 img{
-    width: 325px;
 }
 
 #container2{
@@ -87,10 +37,82 @@ footer{
     grid-template-rows: 15% 10% 50% 25%;
 }
 
+/* Saker använt på alla sidor*/
+header{
+    grid-area: hd;
+    background-color: aqua;
+}
+
+nav{
+    grid-area: na;
+    display: flex;
+    background-color: #2ee6e6;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer{
+    grid-area: ft;
+    background-color: #2ee6e6;
+}
+
+.link{
+    color: black;
+    text-decoration: none;
+}
+
+/* Sida 1 */
+#ar{
+    grid-area: ar;
+}
+
+#ar img{
+    width: 325px;
+}
+
+#ar2{
+    grid-area: ar2;
+}
+
+#ar2 img{
+    width: 325px;
+}
+
+#ar3{
+    grid-area: ar3;
+}
+
+#ar3 img{
+    width: 325px;
+}
+
+aside{
+    grid-area: as;
+    display: flex;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Sida 2 & 3 */
 main{
     background-color: aqua;
 }
 
 .black{
     color: black;
+}
+
+section{
+    display: grid;
+    grid-template-areas: 
+    "map txt";
+}
+
+iframe{
+    grid-area: map;
+}
+
+p{
+    grid-area: txt;
 }
