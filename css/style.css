@@ -61,6 +61,18 @@ footer{
     text-decoration: none;
 }
 
+h1{
+    padding: 10px;
+}
+
+h4{
+    padding: 10px;
+}
+
+iframe{
+    padding: 10px;
+}
+
 /* Sida 1 */
 #ar{
     grid-area: ar;
@@ -88,10 +100,8 @@ footer{
 
 aside{
     grid-area: as;
-    display: flex;
-    background-color: aqua;
-    align-items: center;
-    justify-content: center;
+    background-color: #00ffff;
+    padding: 10px;
 }
 
 /* Sida 2 & 3 */
@@ -115,4 +125,8 @@ iframe{
 
 p{
     grid-area: txt;
+}
+
+.padding{
+    padding: 10px;
 }
